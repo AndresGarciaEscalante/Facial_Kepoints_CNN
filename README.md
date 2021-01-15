@@ -2,6 +2,10 @@
 
 # Facial Keypoint Detection using Convolutional Neural Networks
 
+<p align="center">
+  <img src="gif/RT_Face_and_Facial_Keypoints.gif">
+</p>
+
 ## Installation steps:
 - Clone this repository to your home directory:
 ```
@@ -71,7 +75,7 @@ The implementation of the model worked fine in a real-time face and keypoints de
   <img src="images/RT_Detection.png">
 </p>
 
-**Important:** Check full video of the [Real-Time Face and Keypoints Detection](https://www.youtube.com/watch?v=CUUeepdJkQc)
+**Important:** Check full video of the [Real-Time Face and Keypoints Detection](https://youtu.be/oqTI572XIwc)
 
 
 ## Future Improvements
