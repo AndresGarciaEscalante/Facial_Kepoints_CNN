@@ -3,7 +3,7 @@
 # Facial Keypoint Detection using Convolutional Neural Networks
 
 <p align="center">
-  <img src="gif/RT_Face_and_Facial_Keypoints.gif">
+  <img src="gif/RT_Face_and_Facial_Keypoints.gif" width = 500>
 </p>
 
 ## Installation steps:
@@ -72,7 +72,7 @@ The performance of the model increased with 8 epochs of training. The results of
 The implementation of the model worked fine in a real-time face and keypoints detection. The following image is an example of how the detections looks like:
 
 <p align="center">
-  <img src="images/RT_Detection.png">
+  <img src="images/RT_Detection.PNG" width = 500>
 </p>
 
 **Important:** Check full video of the [Real-Time Face and Keypoints Detection](https://youtu.be/oqTI572XIwc)
