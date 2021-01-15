@@ -1,7 +1,5 @@
 [//]: # (Image References)
 
-[image1]: ./images/key_pts_example.png "Facial Keypoint Detection"
-
 # Facial Keypoint Detection using Convolutional Neural Networks
 
 ## Installation steps:
@@ -30,7 +28,9 @@ pip install -r requirements.txt
 
 This project is part of the **Computer Vision Nanodegree** from **Udacity**, and you’ll combine your knowledge of computer vision techniques and deep learning architectures to build a facial keypoint detection system. Facial keypoints include points around the eyes, nose, and mouth on a face and are used in many applications. These applications include: facial tracking, facial pose recognition, facial filters, and emotion recognition. Your completed code should be able to look at any image, detect faces, and predict the locations of facial keypoints on each face; examples of these keypoints are displayed below.
 
-![Facial Keypoint Detection][image1]
+<p align="center">
+  <img src="./images/key_pts_example.png" width = 700>
+</p>
 
 The project will be broken up into a few main parts in four Python notebooks, **only Notebooks 2 and 3 (and the `models.py` file) will be graded**:
 
@@ -53,17 +53,23 @@ The project implements the prediciton of Facial Keypoints (68 keypints) in a ima
 ### Not Trained Model 
 For this experiment, it was decided to test the performance of the model in detecting the keypoints without training the model. The green points are the grouth truth and the magenta points are the prediciton of the model:
 
-![](images/Not_Trained_Model.png)
+<p align="center">
+  <img src="images/Not_Trained_Model.png">
+</p>
 
 ### Trained Model
 The performance of the model increased with 8 epochs of training. The results of the prediction of Keypoints are shown bellow:
 
-![](images/Trained_Model.png)
+<p align="center">
+  <img src="images/Trained_Model.png">
+</p>
 
 ### Real-Time Face and Keypoints Detection 
 The implementation of the model worked fine in a real-time face and keypoints detection. The following image is an example of how the detections looks like:
 
-![](gif/pick_objects.gif)
+<p align="center">
+  <img src="images/RT_Detection.png">
+</p>
 
 **Important:** Check full video of the [Real-Time Face and Keypoints Detection](https://www.youtube.com/watch?v=CUUeepdJkQc)
 
